@@ -1,35 +1,159 @@
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
+    color: #7f1d6a;
+    font-family: cursive;
 }
-
-h1 {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
+body{
+    background-image: url('donuts-background.jpeg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-img{
+    width: 100%;
+    
+}
+.donuts-background{
+    height: auto;
+    position: relative; top: 0px; left: 0px;
+}
+.donuts{
+    font-size: 20px;
+    position: absolute; top: 20px; left: 5px;
+    width: 98%;
+    height: 20%;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #ffbfcd;
+}
+.radius-donut{
+    border-radius: 50%;
+    width: 10%;
+    height: 60%;
+    position: absolute; bottom: 5px;
+}
+.best-donuts{
+    position: absolute; top: 25%;
+    height: auto;
+}
+.paragraph-lorem{
+    position: absolute; top: 32%;
+    font-size: 18px;
+    margin: 6px;
+}
+.options{
+    position: absolute; top: 45%;
+}
+.option-donut{
+    position: absolute; top: 52%;
+}
+ul{
+    background: #ffbfcd;
+    border-radius: 15%;
     text-align: center;
+    margin-left: 50px;
+    list-style: none;
+    padding: 2px;
+}
+.op-donuts{
+    height: 100px;
+    width: 125px;
+    border-radius: 20%;
 }
 
-p {
-    padding: 20px;
+@media (max-width: 1080px){
+.donuts{
+    font-size: 16px;
+    position: absolute; top: 20px; left: 5px;
+    width: 98%;
+    height: 18%;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #ffbfcd;
 }
-
-h2 {
-    color: #4CAF50;
-    padding: 20px;
+.radius-donut{
+    border-radius: 50%;
+    width: 7%;
+    height: 50%;
+    position: absolute; bottom: 5px;
+}
+.best-donuts{
+    position: absolute; top: 25%;
+    height: auto;
+}
+.paragraph-lorem{
+    position: absolute; top: 30%;
+    font-size: 14px;
+    margin: 6px;
+}
+.options{
+    position: absolute; top: 45%;
+    font-size: 12px;
+}
+.option-donut{
+    position: absolute; top: 55%;
+}
+ul{
+    background: #ffbfcd;
+    font-size: 12px;
+    border-radius: 15%;
     text-align: center;
+    margin-left: 50px;
+    list-style: none;
+    padding: 2px;
+}
+.op-donuts{
+    height: 60px;
+    width: 78px;
+    border-radius: 20%;
+}
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+@media (max-width: 768px){
+.donuts{
+    font-size: 14px;
+    position: absolute; top: 20px; left: 5px;
+    width: 98%;
+    height: 18%;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #ffbfcd;
 }
-
-li {
-    background-color: #f4f4f4;
-    color: #4CAF50;
-    margin: 5px;
-    padding: 10px;
+.radius-donut{
+    border-radius: 50%;
+    width: 9%;
+    height: 45%;
+    position: absolute; bottom: 5px;
+}
+.best-donuts{
+    position: absolute; top: 25%;
+    height: auto;
+}
+.paragraph-lorem{
+    position: absolute; top: 32%;
+    font-size: 12px;
+    margin: 6px;
+}
+.options{
+    position: absolute; top: 50%;
+    font-size: 11px;
+}
+.option-donut{
+    position: absolute; top: 58%;
+}
+ul{
+    background: #ffbfcd;
+    font-size: 11px;
+    border-radius: 15%;
     text-align: center;
+    margin-left: 50px;
+    list-style: none;
+    padding: 2px;
+}
+.op-donuts{
+    height: 50px;
+    width: 62px;
+    border-radius: 20%;
+}
 }
